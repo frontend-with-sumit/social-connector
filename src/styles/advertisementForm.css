@@ -1,0 +1,94 @@
+.advertise-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem;
+}
+
+.advertise-container .left {
+  padding: 0 2rem;
+}
+
+.advertise-container .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.advertise-form {
+  padding: 0;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group .form-control {
+  flex: 1;
+}
+
+.form-group .form-control:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.form-control {
+  margin-bottom: 2rem;
+}
+
+.input,
+.group-inp,
+.select {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border: none;
+  background: rgba(207, 207, 207, 0.38);
+  border-radius: 2px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 1.1px;
+}
+
+.select {
+  appearance: none;
+}
+
+.select option {
+  padding: 1rem;
+  border: none;
+}
+
+.select:focus,
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-weight: 400;
+  color: #acacac;
+}
+
+.btn {
+  background: var(--secondary-color);
+  padding: 1.1rem 5rem;
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+}
+
+.btn:disabled {
+  background: rgba(255, 99, 71, 0.486);
+  cursor: not-allowed;
+}
+
+.error {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-align: left;
+}

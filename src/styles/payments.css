@@ -1,0 +1,92 @@
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.top .card {
+  padding: 1.7rem 2.7rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(145, 145, 145, 0.2);
+  transition: all 0.2ms ease-in;
+  cursor: pointer;
+}
+
+.top .card:active {
+  transform: scale(0.95);
+}
+
+.separator {
+  margin: 2rem 0;
+}
+
+.separator p {
+  margin: 1rem 0;
+  font-family: "Noto Serif Display";
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.separator p::after,
+.separator p::before {
+  content: "";
+  display: inline-block;
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 3rem;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.separator p::after {
+  margin-left: 1rem;
+}
+
+.separator p::before {
+  margin-right: 1rem;
+}
+
+.top .card .card-image {
+  width: auto;
+  height: 4rem;
+}
+
+.top .card .card-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.top .card .card-text p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.payment-btn {
+  background-color: white;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  font-weight: 600;
+}
+
+.payment-btn:hover {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.payment-bg {
+  height: 60rem;
+}
+
+.payment-bg img {
+  height: 100%;
+  width: auto;
+}

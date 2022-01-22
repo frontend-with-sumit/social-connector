@@ -1,0 +1,67 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container .left,
+.login-container .right {
+  text-align: center;
+  padding: 2rem;
+  width: 50%;
+}
+
+.form-container {
+  border-radius: 20px;
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form {
+  background-color: white;
+  padding: 5rem 10rem;
+  box-shadow: 0px 3px 76px rgba(211, 211, 211, 0.342);
+}
+
+.form-container .form-heading {
+  font-size: 3.5rem;
+  font-family: "Noto Serif Display";
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.recover {
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.recover:hover {
+  color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  padding: 0.9rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.register {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.register a {
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+}

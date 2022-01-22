@@ -1,0 +1,100 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem 0 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header .collection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .collection .user {
+  margin-right: 5rem;
+  font-size: 1.8rem;
+}
+
+.header .collection .user em {
+  font-weight: 600;
+}
+
+.header .collection img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.header .collection .text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logo {
+  height: 14rem;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-list {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu-list .menu-item {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menu-list .menu-item::after,
+.header .collection .text::after {
+  content: "";
+  display: block;
+  position: relative;
+  background: var(--secondary-color);
+  height: 0.5rem;
+  width: 0%;
+  border-radius: 2rem 5rem 2rem 2rem;
+  transition: all 0.2s ease-in;
+}
+
+.menu-list .menu-item:hover::after,
+.header .collection .text:hover::after {
+  width: 70%;
+}
+
+.advertisement {
+  padding: 0 5rem;
+  margin-top: 2rem;
+}
+
+.advertisement .left,
+.advertisement .right {
+  width: 50%;
+}
+
+.advertisement h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

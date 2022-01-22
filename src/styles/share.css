@@ -1,0 +1,32 @@
+.share {
+  margin-left: 2rem;
+}
+
+.share ul {
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+.share ul li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.loader {
+  border: 2px solid #000;
+  padding: 1rem;
+  border-radius: 50px;
+  border-style: dashed0;
+  animation: rotate 1s infinite linear alternate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    border-color: var(--primary-color);
+  }
+  to {
+    transform: rotate(360deg);
+    border-color: var(--secondary-color);
+  }
+}

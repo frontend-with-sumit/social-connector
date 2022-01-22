@@ -1,0 +1,81 @@
+.banner-container {
+  position: relative;
+  overflow: hidden;
+  height: 35rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.banner-image {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-preview {
+  background: rgba(211, 211, 211, 0.342);
+  box-shadow: 0px 3px 76px rgba(211, 211, 211, 0.342);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-preview img {
+  height: 15rem;
+}
+
+.banner-preview p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  height: 100%;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-content--sale {
+  font-family: "Sacramento";
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.banner-content--tagline {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.banner-content--message {
+  font-size: 3rem;
+}
+
+.banner-content--message span {
+  font-weight: 800;
+}
+
+.banner-content--footer p {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  font-size: 0.9rem;
+}

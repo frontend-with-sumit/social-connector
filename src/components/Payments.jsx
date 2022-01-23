@@ -36,7 +36,7 @@ function Payments() {
               alert(
                 `Your payment is successful. Your coupon code is ${couponCode}`
               );
-              navigate("/home");
+              window.location.href = "https://www.instagram.com/";
             }
           }}
         >

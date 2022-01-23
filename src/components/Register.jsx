@@ -112,7 +112,7 @@ function Register() {
                     type="text"
                     className="input"
                     placeholder="Mobile Number"
-                    maxlength={10}
+                    maxLength={10}
                   />
                   <FormikControl
                     control="input"
@@ -120,7 +120,7 @@ function Register() {
                     type="text"
                     className="input"
                     placeholder="OTP"
-                    maxlength={4}
+                    maxLength={4}
                   />
                 </div>
                 <button type="submit" className="btn-secondary">

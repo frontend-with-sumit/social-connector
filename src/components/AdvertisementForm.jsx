@@ -56,7 +56,7 @@ function AdvertisementForm() {
   const shareCredentials = {
     baseURL: "https://graph.facebook.com/v12.0/17841447319601472", // change the ig_user_id
     access_token:
-      "EAAp2nNLlZBCcBANbgq05MKm2LjUxjhyVNWUBnM5WqZACMvI30dZBIZCLIGiDzatX5WKSdvYgocGyykCAo5U0siC32epOU0IcQJOWEmbzAmPTj0jQzVaBIhp1wZBVjG1M2j84XtaH1fJHwvgObuTqFnoisGmosusxyOCGE6ZBntC8NpSJFBEjFZB2H17Si64B796Hn3UzZA278HrwOZCaKDIFws3mmk8LLzfAZD", // update the access_token after 1 hour
+      "EAAp2nNLlZBCcBAC22fSTq3t3glSXSlkRooD4TUciTLY7w6Nspm7ruu4ZBwz7xas7NWLFuuLoOol1aCCqqmEUQc6EUAZCp1YSHbcdIwIomaBIUDAezarMNlOjuk7UBk949RoPD26Dzhjcwu3ZCVFvhedpEU5Fdm23gAhlPVbPGmzm83r2Uj6qTlm6tPbHZB2lc9RRMiZC8ZBzMYCIZCQEKz8YVAd48gNQnK4ZD", // update the access_token after 1 hour
   };
 
   const shareToInstagram = async (adURL) => {
@@ -74,9 +74,9 @@ function AdvertisementForm() {
       );
 
       if (data.id) {
-        setUploading(false);
         alert("Your advertisement is shared successfully");
-        window.open("https://www.instagram.com/");
+        setUploading(false);
+        window.open("https://www.instagram.com");
       }
     } catch (err) {
       console.log("Error: ", err.message);

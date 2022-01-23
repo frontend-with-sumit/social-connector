@@ -18,7 +18,7 @@ export function addUser({ firstName, lastName, email, password, mobileNo }) {
 
     usersData.push(newUser);
     localStorage.setItem("users", JSON.stringify(usersData));
-    return "B1001";
+    return "BM1001";
   }
 
   const usersCopy = [...users];
